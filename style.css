@@ -140,3 +140,47 @@ footer{
     text-align: center;
     padding: 12px;
 }
+
+@media screen and (max-width: 767px){
+    header nav li{
+        display: block;
+    }
+    
+    header .container, section .container {
+        display: block;
+    }
+    #logo-ving{
+        height: 200px;
+    }
+    #sobre{ 
+        display: block;
+        max-width: 300px;
+        width: 100%;
+        text-align: center;
+    }
+    .contatenos{
+        display: flex;
+        flex-direction: column;
+    }
+    .endereco{
+        max-width: 300px;
+    }
+    #form-contato input, textarea, button{
+        max-width: 300px;
+        width: 100%;
+    }
+    footer{
+
+        display: block;
+        background-color: rgb(93, 93, 240);
+        color: #fff;  
+        height: 80px;   
+
+    }
+
+    header, footer {
+        background-color: rgb(93, 93, 240);
+        color: #fff;
+
+    }
+}
